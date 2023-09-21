@@ -1,0 +1,90 @@
+:root{--border-base:var(--space-minuscule);--border-thick:var(--space-smallest);--color-request:var(--color-indigo);--color-quote:var(--color-pink);--color-job:var(--color-yellowGreen);--color-invoice:var(--color-purple);--color-outline:var(--color-yellow--light);--color-error:var(--color-red);--color-blue:#012939;--color-blue--light:#4d6974;--color-blue--lighter:#99a9b0;--color-blue--lightest:#d9dfe1;--color-blue--dark:#011b25;--color-green:#7db00e;--color-green--light:#a4c856;--color-green--lighter:#cbdf9f;--color-green--lightest:#ecf3db;--color-green--dark:#517209;--color-lime:#99c146;--color-lime--light:#b8d47e;--color-lime--lighter:#d6e6b5;--color-lime--lightest:#f0f6e3;--color-lime--dark:#637d2e;--color-yellowGreen:#bbc520;--color-yellowGreen--light:#cfd663;--color-yellowGreen--lighter:#e4e8a6;--color-yellowGreen--lightest:#f5f6de;--color-yellowGreen--dark:#7a8015;--color-yellow:#ddc30f;--color-yellow--light:#e7d557;--color-yellow--lighter:#f1e79f;--color-yellow--lightest:#faf6db;--color-yellow--dark:#907f0a;--color-red:#ef5733;--color-red--light:#f48970;--color-red--lighter:#f9bcad;--color-red--lightest:#fde6e0;--color-red--dark:#9b3921;--color-grey:#b5b5b5;--color-grey--light:#cbcbcb;--color-grey--lighter:#e1e1e1;--color-grey--lightest:#f4f4f4;--color-grey--dark:#767676;--color-greyBlue:#657884;--color-greyBlue--light:#93a1a9;--color-greyBlue--lighter:#c1c9ce;--color-greyBlue--lightest:#e8ebed;--color-greyBlue--dark:#424e56;--color-lightBlue:#3ca2e0;--color-lightBlue--light:#77bee9;--color-lightBlue--lighter:#b1daf3;--color-lightBlue--lightest:#e2f1fa;--color-lightBlue--dark:#276992;--color-purple:#8870c4;--color-purple--light:#ac9bd6;--color-purple--lighter:#cfc6e7;--color-purple--lightest:#edeaf6;--color-purple--dark:#58497f;--color-pink:#b36096;--color-pink--light:#ca90b6;--color-pink--lighter:#e1bfd5;--color-pink--lightest:#f4e7ef;--color-pink--dark:#743e62;--color-teal:#3ead92;--color-teal--light:#78c6b3;--color-teal--lighter:#b2ded3;--color-teal--lightest:#e2f3ef;--color-teal--dark:#28705f;--color-orange:#f39624;--color-orange--light:#f7b666;--color-orange--lighter:#fad5a7;--color-orange--lightest:#fdefde;--color-orange--dark:#9e6217;--color-brown:#826b46;--color-brown--light:#a8977e;--color-brown--lighter:#cdc4b5;--color-brown--lightest:#ece9e3;--color-brown--dark:#55462e;--color-navy:#4b6a96;--color-navy--light:#8197b6;--color-navy--lighter:#b7c3d5;--color-navy--lightest:#e4e9ef;--color-navy--dark:#314562;--color-indigo:#556acb;--color-indigo--light:#8897db;--color-indigo--lighter:#bbc3ea;--color-indigo--lightest:#e6e9f7;--color-indigo--dark:#374584;--color-white:#fff;--radius-base:var(--space-smallest);--radius-large:var(--space-smaller);--radius-larger:var(--space-small);--base-unit:16px;--space-minuscule:calc(var(--base-unit)/16);--space-smallest:calc(var(--base-unit)/8);--space-smaller:calc(var(--base-unit)/4);--space-small:calc(var(--base-unit)/2);--space-base:calc(var(--base-unit)*1);--space-large:calc(var(--base-unit)*1.5);--space-larger:calc(var(--base-unit)*2);--space-largest:calc(var(--base-unit)*3);--space-extravagant:calc(var(--base-unit)*4);--shadow-base:0px 1px 4px 0px rgba(0,0,0,0.0980392),0px 4px 12px 0px rgba(0,0,0,0.0470588);--timing-quick:100ms;--timing-base:200ms;--timing-slow:500ms;--timing-slower:1s;--timing-slowest:2s;--elevation-base:1;--elevation-menu:6;--elevation-modal:1001;--elevation-tooltip:1002}.js-comboPaymentForm .js-bankConfirmationNumber,.js-comboPaymentForm .js-cardTransactionNumber,.js-comboPaymentForm .js-chargeCardButton,.js-comboPaymentForm .js-chequeNumber,.js-comboPaymentForm .js-jobberPaymentsForm,.js-comboPaymentForm .js-recordPaymentFields,.js-comboPaymentForm .js-superSaveButton{display:none}.js-comboPaymentForm.bankTransfer .js-recordPaymentFields,.js-comboPaymentForm.cash .js-recordPaymentFields,.js-comboPaymentForm.cheque .js-recordPaymentFields,.js-comboPaymentForm.creditCard .js-recordPaymentFields,.js-comboPaymentForm.epayment .js-chargeCardButton,.js-comboPaymentForm.epayment .js-jobberPaymentsForm,.js-comboPaymentForm.jobberPayments .js-chargeCardButton,.js-comboPaymentForm.jobberPayments .js-jobberPaymentsForm,.js-comboPaymentForm.moneyOrder .js-recordPaymentFields,.js-comboPaymentForm.other .js-recordPaymentFields{display:block}.js-comboPaymentForm.bankTransfer .js-superSaveButton,.js-comboPaymentForm.cash .js-superSaveButton,.js-comboPaymentForm.cheque .js-superSaveButton,.js-comboPaymentForm.creditCard .js-superSaveButton,.js-comboPaymentForm.moneyOrder .js-superSaveButton,.js-comboPaymentForm.other .js-superSaveButton{display:inline-flex}.js-comboPaymentForm.bankTransfer .js-bankConfirmationNumber,.js-comboPaymentForm.cheque .js-chequeNumber,.js-comboPaymentForm.creditCard .js-cardTransactionNumber{display:block}.js-jobberPaymentsForm.hosted .js-cardCvc .placeholderField-label,.js-jobberPaymentsForm.hosted .js-cardExpiry .placeholderField-label,.js-jobberPaymentsForm.hosted .js-cardNumber .placeholderField-label,.js-jobberPaymentsForm.hosted .js-postalCode .placeholderField-label{color:transparent}.js-jobberPaymentsForm.hosted .placeholderField.is-focus .placeholderField-input{outline:none;border-color:#ddc30f;box-shadow:none;z-index:3}.js-jobberPaymentsForm.hosted .placeholderField-input{display:block;height:3rem}.js-jobberPaymentsForm.stripe .js-postalCode{display:none}.js-jobberPaymentsForm.stripe .StripeElement.is-empty{padding-top:14px;padding-bottom:14px}.js-jobberPaymentsForm.stripe .StripeElement{padding-top:20px;padding-bottom:8px}.IntegrationCard-module__highlight___I96Ty:hover{background-color:#faf6db}.IntegrationCard-module__bottomCenterButton___3hKvB{position:absolute;bottom:-3rem;width:100%;margin-left:auto;margin-right:auto;left:0;right:0}.IntegrationCard-module__padCard___25YLK{padding-bottom:3rem}.IntegrationCard-module__formatImage___Shyag{height:2.625rem;margin-left:auto;margin-right:auto}@media only screen and (min-width:640px){.IntegrationList-module__promoted___yq_NN>div:not(:last-child){border-right:1px solid #e1e1e1}}.withStripeStyling-module__stripeInput___1b3Ba{height:3rem;padding-top:1.45rem}.withStripeStyling-module__stripeInput___1b3Ba.is-empty{display:flex;flex-direction:column;justify-content:center;padding-top:0}.withStripeStyling-module__stripeInput___1b3Ba.is-focus{outline:none;border-color:#ddc30f;box-shadow:none;z-index:3}.withStripeStyling-module__placeholderFieldLabel___1mvo8{z-index:4;pointer-events:none}.AnimatedBackdrop-module__backdrop___1G1Ed{background-color:#657884;display:block;position:fixed;z-index:3;transition-property:background;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.3s;will-change:background;top:0;left:0;right:0;bottom:0}.AnimatedBackdrop-module__backdrop___1G1Ed.AnimatedBackdrop-module__transitionOut___3p0ox{background-color:transparent}.SimpleCollectPaymentForm-module__formParent___3dDY7>*{margin-left:1rem;margin-right:1rem}.withLoadingOverlay-module__defaultLoadingOverlay___1xmmx{pointer-events:none;opacity:.6}.MapContainer-module__mediumMapSize___qpUB-{height:350px;width:100%}.ResultsPicker-module__resultsPickerOverlay___3QTyX{position:absolute;top:100%;left:0;right:0;z-index:3}.ScheduleWeekDisplay-module__listStyle___3KSi5{max-width:300px}.CheckboxCard-module__checkboxMargin___1v5z5{margin-right:var(--space-base)}.CheckboxCard-module__verticalCenter___2_XRu{height:100%;display:flex;align-items:center}.DivertMessage-module__link___3B1TI{color:#7db00e;text-decoration:underline;padding-left:.25em;padding-right:.25em}
+
+
+
+
+.fc-scroller.fc-day-grid-container {
+    height: 100% !important;
+}
+
+div#map {
+    position: relative;
+    overflow: hidden;
+    height: 246px;
+}
+#map iframe {
+    width: 100%;
+}
+input#work_order_scheduling_details {
+    background: #fff;
+    padding: 7px 10px;
+}
+textarea#work_order_work_order_visit_details_attributes_visit_description {
+    background: #ffff;
+    height: 120px;
+}
+#contracts {
+    float: left;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid #a3a3a3;
+    position: relative;
+    height: 246px;
+}
+.u-bgColorYellowLightest {
+    height: 100%;
+}
+
+
+.placeholderField--noMiniLabel .react-datepicker-component .react-datepicker-input {
+    background: inherit !important;
+	border-radius: 0 !important;
+}
+
+.placeholderField--noMiniLabel .react-flex-view.align-content-center.button-wrapper {
+    display: none !important;
+}
+
+
+.placeholderField--noMiniLabel .react-datepicker-component .react-datepicker-input:hover {
+    background: inherit !important;
+}
+
+
+
+.placeholderField--noMiniLabel .react-datepicker-component.my-custom-datepicker-component.js-startAtDate.calendar.placeholderField-input.inspectletIgnore.my-custom-datepicker-component {
+    padding: 0;
+    border: none;
+}
+ 	 	
+.placeholderField--noMiniLabel .react-datepicker-component .react-datepicker-input {
+    background: inherit !important;
+    border-radius: 0 !important;
+}
+.card-content {
+    overflow: inherit!important; 	
+}
+.placeholderField--noMiniLabel input, .placeholderField--noMiniLabel.is-filled input, .placeholderField--noMiniLabel.is-filled textarea {
+    padding-top: 0.8125rem !important;
+    padding-bottom: 0.8125rem !important;
+}
+.placeholderField--noMiniLabel input, .placeholderField input {
+    height: auto !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+	border: 1px solid #e1e1e1!important;
+}
+.placeholderField--noMiniLabel .react-datepicker-component .react-datepicker-input {
+    border: none !important;
+}
+.placeholderField--noMiniLabel .react-datepicker-component.my-custom-datepicker-component.js-startAtDate.calendar.placeholderField-input.inspectletIgnore.my-custom-datepicker-component {
+    border: none !important;
+}
+
+
+.placeholderField--noMiniLabel .react-datepicker-component .react-datepicker-input {
+    height: auto !important;
+}
+.react-datepicker-component.my-custom-datepicker-component.js-startAtDate.calendar.placeholderField-input.inspectletIgnore.my-custom-datepicker-component {
+    z-index: 999;
+}
