@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  color: #666666;
+  background-color: #f5f6f6;
+}
+
+a {
+  color: #7db00e;
+  text-decoration: none;
+}
+
+.logoContainer {
+  margin: 3em auto 1em auto;
+  overflow: hidden;
+  text-align: center;
+  width: width;
+  max-width: 365px;
+}
+
+.logoContainer img {
+  width: 66%;
+}
+
+/* -------------------------------------------------------------------------
+     Margin
+     ------------------------------------------------------------------------- */
+
+.u-marginTopSmall {
+  margin-top: 16px !important;
+}
+
+.u-marginBottomSmallest {
+  margin-bottom: 4px !important;
+}
+
+/* ------------------------------------------------------------
+    Basic Palette - Define the key colours used. Everything should be based off these base colours.
+   ------------------------------------------------------------  */
+
+.u-colorGreyBlue {
+  color: #657884 !important;
+}
+
+/* -------------------------------------------------------------------------
+     Card
+     ------------------------------------------------------------------------- */
+
+.card {
+  position: relative;
+  width: 365px;
+  padding: 16px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+/* -------------------------------------------------------------------------
+   Heading Typographical Scale
+   ------------------------------------------------------------------------- */
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+}
+
+.headingOne,
+.headingThree {
+  margin: 0;
+  font-weight: 700;
+  color: #012939;
+}
+
+.headingOne {
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.headingThree {
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.paragraph {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #657884;
+}
+
+/* -------------------------------------------------------------------------
+     Text Sizes
+     ------------------------------------------------------------------------- */
+
+.u-textJumbo {
+  font-size: 60px !important;
+}
